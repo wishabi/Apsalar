@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = "apsalar"
-  s.version        = "6.0.3"
+  s.version        = "6.0.6"
   s.summary        = "Apsalar for iOS SDK."
   s.description    = "Apsalar for iOS SDK."
   s.homepage       = "http://www.apsalar.com"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/wishabi/apsalar.git",
     :tag => s.version.to_s
   }
-  s.platform       = :ios, '6.0'
+  s.platform       = :ios, '7.0'
   s.source_files   = 'Apsalar-iOS-SDK/Library/*.h'
   s.resources      = 'Apsalar-iOS-SDK/Library/*.js'
   s.preserve_paths = 'Apsalar-iOS-SDK/Library/*.a'
